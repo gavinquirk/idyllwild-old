@@ -4,6 +4,7 @@ import './App.css';
 import Layout from './containers/Layout/Layout'
 import Main from './containers/Main/Main'
 import Banner from './components/Banner/Banner'
+import Blog from './containers/Blog/Blog'
 
 class App extends Component {
   render() {
@@ -11,7 +12,8 @@ class App extends Component {
       <div className="App">
         <Layout>
           <Banner />
-          <Main />
+          <Blog />
+          {/* <Main /> */}
         </Layout>
       </div>
     );
